@@ -411,8 +411,49 @@
             
         }
     }
-//  .works2{
-//      margin-top: 35px;
-//  }
+    .liuyan{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 30px;
+        box-sizing: border-box;
+        padding-left: 50px;
+        .biaoti{
+            font-size: 19px;
+            line-height: 34px;
+            height: 34px;
+            color: #444;
+            border-bottom: 1px solid #dfdfdf;
+        }
+        .shu{
+            width: 100%;
+            height:277px;
+            margin-top: 20px;
+            .tishi{
+                height: 34px;
+                text-align: right;
+                font-size: 14px;
+                color: #666;
+                box-sizing: border-box;
+                padding-right: 55px;
+                line-height: 34px;
+            }
+            .left{
+                width: 85px;
+                height: 85px;
+                float: left;
+            }
+            .right{
+                float: left;
+                width:1012px;
+                height: 182px;
+                border: 2px solid #ddd;
+                border-radius: 5px;
+                box-sizing: border-box;
+                padding-left: 20px;
+                padding-top: 20px;
+                color: #999;
+            }
+        }
+    }
 }
 
