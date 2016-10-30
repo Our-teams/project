@@ -24,20 +24,146 @@ img {
 /*标题的颜色$titleColor*/
 /*图片路径$imgpath:"../img";*/
 #header {
+  background: rgba(13, 76, 103, 0.5);
+  height: 145px;
+  width: 100%;
+  opacity: 1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+
+#header .typebox {
+  width: 1200px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#header .typebox .logo {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: -140px;
+}
+
+#header .typebox .logo img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#header .typebox .type {
+  float: left;
+  margin-top: 60px;
+  margin-right: 45px;
+}
+
+#header .typebox .type a {
+  display: block;
+  width: auto;
+  height: auto;
+  padding-right: 50px;
+}
+
+#header .typebox .type a span {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.1;
+  letter-spacing: 2px;
+}
+
+#header .typebox .type a hr {
+  color: #fff;
+  width: 50px;
+  height: 1px;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 65px solid #fff;
+  border-right: 10px solid #ffcd1f;
+  margin: 5px 0;
+}
+
+#header .typebox .type a p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.1;
+}
+
+#header .typebox .search {
+  position: absolute;
+  right: -125px;
+  top: 65px;
+  width: 423px;
+  height: 47px;
+  border: 2px solid #ccc;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 0;
+}
+
+#header .typebox .search .yuan {
+  position: absolute;
+  left: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ffcd1f;
+  z-index: 3;
+}
+
+#header .typebox .search .yuan:after {
+  content: "|";
+  display: block;
+  position: absolute;
+  left: 24px;
+  top: -8px;
+  color: #ccc;
+}
+
+#header .typebox .search input {
+  position: absolute;
+  border: 0;
+  background: transparent;
+  width: 310px;
+  height: 43px;
+  left: 37px;
+  top: 0;
+  z-index: 2;
+}
+
+#header .typebox .search img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+#top {
   width: 100%;
   height: 830px;
   background: url("../img/base/banner.jpg");
   background-size: cover;
 }
 
-#header .header {
+#top .header {
   width: 100%;
   height: 830px;
   background-color: rgba(15, 77, 104, 0.5);
   position: relative;
 }
 
-#header .header .banner {
+#top .header #banner {
   width: 1680px;
   height: 830px;
   padding-top: 180px;
@@ -45,29 +171,29 @@ img {
   display: block;
 }
 
-#header .header .banner li {
+#top .header #banner li {
   width: 100%;
   height: 100%;
   float: left;
   display: none;
 }
 
-#header .header .banner li a {
+#top .header #banner li a {
   width: 100%;
   height: 100%;
   display: block;
   overflow: hidden;
 }
 
-#header .header .banner li a img {
+#top .header #banner li a img {
   width: 100%;
 }
 
-#header .header .banner .first {
+#top .header #banner .first {
   display: block;
 }
 
-#header .header .big-box {
+#top .header .big-box {
   position: absolute;
   top: 540px;
   left: 120px;
@@ -76,7 +202,7 @@ img {
   background-color: rgba(191, 214, 67, 0.5);
 }
 
-#header .header .small-box {
+#top .header .small-box {
   position: absolute;
   top: 510px;
   left: 90px;
@@ -85,7 +211,7 @@ img {
   background-color: rgba(191, 214, 67, 0.5);
 }
 
-#header .header .box-right {
+#top .header .box-right {
   position: absolute;
   top: 300px;
   left: 1680px;
@@ -94,7 +220,7 @@ img {
   background-color: rgba(47, 175, 152, 0.5);
 }
 
-#header .header .point {
+#top .header .point {
   position: absolute;
   top: 480px;
   left: 1680px;
@@ -104,14 +230,14 @@ img {
   background-color: rgba(249, 209, 50, 0.9);
 }
 
-#header .header .point .point-box {
+#top .header .point .point-box {
   width: 100%;
   height: 100%;
   position: relative;
   display: block;
 }
 
-#header .header .point .point-box .uls {
+#top .header .point .point-box .uls {
   position: absolute;
   top: 30px;
   left: 0;
@@ -120,13 +246,13 @@ img {
   display: block;
 }
 
-#header .header .point .point-box .uls .lis {
+#top .header .point .point-box .uls .lis {
   float: left;
   height: 25%;
   width: 100%;
 }
 
-#header .header .point .point-box .uls .lis div {
+#top .header .point .point-box .uls .lis div {
   width: 13px;
   height: 13px;
   position: absolute;
@@ -140,11 +266,11 @@ img {
   border: 1px solid #fff;
 }
 
-#header .header .point .point-box .uls .active div {
+#top .header .point .point-box .uls .active div {
   background: transparent;
 }
 
-#header .header .point .point-box .button {
+#top .header .point .point-box .button {
   position: absolute;
   top: 150px;
   left: 0;
@@ -156,7 +282,7 @@ img {
   overflow: hidden;
 }
 
-#header .header .point .point-box .button .left {
+#top .header .point .point-box .button .left {
   padding-top: 10px;
   padding-left: 25px;
   width: 40px;
@@ -167,7 +293,7 @@ img {
   color: #f0c310;
 }
 
-#header .header .point .point-box .button .right {
+#top .header .point .point-box .button .right {
   font-size: 20px;
   padding-top: 10px;
   margin-left: 5px;
@@ -178,7 +304,7 @@ img {
   color: #f0c310;
 }
 
-#header .header .point .point-box .text {
+#top .header .point .point-box .text {
   position: absolute;
   left: 70px;
   top: 100px;
@@ -187,12 +313,12 @@ img {
   overflow: hidden;
 }
 
-#header .header .point .point-box .text span {
+#top .header .point .point-box .text span {
   font-size: 13px;
   color: #fff;
   line-height: 13px;
 }
 
-#header .header .point .point-box .text span h1, #header .header .point .point-box .text span h5 {
+#top .header .point .point-box .text span h1, #top .header .point .point-box .text span h5 {
   float: left;
 }
