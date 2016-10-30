@@ -1,0 +1,80 @@
+@import 'base';
+.content{
+    width: $inner-width;
+    @include level;
+    border: 1px solid red;
+    height: 1000px;
+    padding-top: 145px;
+    .title{
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            color: #666;
+            margin-bottom: 115px;
+            .left{
+                float: left;
+                font-size: 20px;
+                width: 285px;
+                span{
+                    font-size: 32px;
+                    color: $titleColor;
+                }
+            }
+            .right{
+                float: right;
+                font-size: 12px;
+                width: 155px;
+                padding-left: 30px;
+            }
+        }
+    .love-food{
+        width: 100%;
+        height: 80px;
+        .left{
+            float: left;
+            height: 100%;
+            width: 195px;
+            padding-top: 19px;
+            box-sizing: border-box;
+            border: 1px solid blue;
+            p{
+                font-size: 18px;
+                color: #666;
+                margin-bottom: 10px;
+            }
+           .left-bt{
+               width: 100%;
+               height: 6px;
+               span{
+                   float: left;
+                   width: 10px;
+                   height: 10px;
+                   border-radius: 50%;
+                   background: red;
+                   margin-right: 3px;
+                   margin-top: 3px;
+               }
+               a{
+                   float: left;
+                   font-size: 6px;
+                   color: red;
+                   margin-left: 6px;
+               }
+               .huang{
+                   width: 42px;
+                   height: 8px;
+                   background: #f0c310;
+                   float: left;
+                   margin-left: 10px;
+                   margin-top: 5px;
+               }
+           }
+        }
+        .right{
+            width: 80px;
+            float: right;
+            height: 100%;
+        }
+    }
+}
+
