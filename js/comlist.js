@@ -44,32 +44,8 @@ $(document).ready(function(){
 	    	tu();
 	    })
 	   var index=$(".point-box .uls .lis").index();
-	     $(".point-box .uls .lis").hover(function(){
+	     $(".point-box .uls .lis").click(function(){
 	     	 var index=$(this).index();
-	     	 if(index>n){
-             	if(!flag){
-			    return;
-			 }
-			 flag=false;
-			 $("#banner li").eq(n).animate({opacity:0},2500);
-			 $("#banner li").eq(index).animate({opacity:1},2500,function(){
-			 	flag=true;
-			 })
-          	 }else if(index<n){
-             	if(!flag){
-			    return;
-			 };
-			 flag=false;
-			 $("#banner li").eq(n).animate({opacity:0},2500);
-			 $("#banner li").eq(index).animate({opacity:1},2500,function(){
-			 	flag=true;
-			 })
-         	 };
-         	$(".point-box .uls .lis").removeClass("active").eq(index).addClass("active")
-        n=index;
-        next=index;
-	    },function(){
-	    	var index=$(this).index();
 	     	 if(index>n){
              	if(!flag){
 			    return;
