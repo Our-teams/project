@@ -1,1 +1,147 @@
 @import "base";
+.header{
+    width: 500px;
+    height: 229px;
+    margin: 10px auto;
+    border-top:5px solid #10C8F0;
+    background:#FFFFFF;
+    box-shadow: 1px 1px 1px 1px #888;
+      margin-top:250px; ;
+      position: relative;
+}
+.header h1{
+    color: black;
+}
+.hangye{
+    /*width: 220px;*/
+    height: 22px;
+    /*border: 1px solid #888;*/
+    margin-left: 20px;
+}
+.hangye .border{
+    /*width: 100px;
+    height: 32px;
+    border: 1px solid #888;*/
+}
+.hangye span{
+    float: left;
+color: black;
+}
+.hangye .flor{
+    float: left;
+    padding-left: 20px;
+}
+.xu{
+    width: 265px;
+    height: 43px;
+   
+    position: absolute;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px #888;
+    left: 450px;
+  bottom: -20px;
+
+  line-height: 43px;
+  background: white;
+}
+.green{
+    width: 105px;
+    height: 43px;
+   
+    position: absolute;
+    text-align: center;
+    background: #5BDB9D;
+    box-shadow: 1px 1px 1px 1px #888;
+    left: 700px;
+bottom: -20px;
+line-height: 43px;
+  margin-left: 10px;
+}
+.sma{
+    color: #888;
+    font-size: 14px;
+}
+.xian{
+    border: 1px solid #888;
+    margin-left: 265px;
+    width: 601px;
+    margin-top: 30px;
+}
+.k{
+    width: 601px;
+
+    height: 110px;
+    box-shadow: 1px  #888;
+    margin: 30px auto;
+    border-bottom: 1px solid #888;
+    background: #FFFFFF;
+     margin-left: 265px;
+}
+.k p{
+    padding-top: 10px;
+padding-left: 18px;
+}
+.k span{
+    font-size: 13px;
+    padding-left: 18px;
+}
+.a{
+    width: 601px;
+    height: 900px;
+    /*box-shadow: 1px  #888;*/
+    /*margin: 30px auto;*/
+    border-bottom: 1px solid #888;
+    background: #FFFFFF;
+     margin-left: 265px;
+     margin-top: -30px;
+
+}
+.a span{
+    font-size: 13px;
+    padding-left:18px;
+}
+
+.l{
+    width: 601px;
+
+    height: 210px;
+    box-shadow: 1px  #888;
+    margin: 30px auto;
+    border-top: 1px solid #888;
+    background: #FFFFFF;
+     margin-left: 265px;
+     margin-top: -60px;
+
+     
+}
+.l p{
+    padding-top: 10px;
+padding-left: 18px;
+
+}
+.l span{
+    font-size: 13px;
+    padding-left: 18px;
+
+}
+.j{
+    width: 601px;
+
+    height: 210px;
+    box-shadow: 1px  #888;
+    margin: 30px auto;
+    border-top: 1px solid #888;
+    background: #FFFFFF;
+     margin-left: 265px;
+     margin-top: -60px;
+     
+}
+.j p{
+    padding-top: 10px;
+padding-left: 18px;
+}
+.j span{
+    font-size: 13px;
+    padding-left: 18px;
+}
+
