@@ -49,8 +49,8 @@ tr {
     width: 320px;
     height: 66px; }
   tr .xiugai {
-    background: url(../img/base/but.png);
-    font-size: 8px;
+    background: url(../img/base/but.png) no-repeat;
+    font-size: 10px;
     color: #fff;
     border: 0;
     line-height: 40px;
@@ -58,7 +58,8 @@ tr {
     height: 41px; }
 
 select {
-  height: 30px; }
+  height: 30px;
+  border-radius: 5%; }
 
 select.sel {
   width: 200px; }

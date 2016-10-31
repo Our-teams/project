@@ -21,6 +21,7 @@
             position: absolute;
             left: 0;
             top: 0;
+            z-index: 100;
             .typebox{
                 width: #{$inner-width};
                 height:100%;
@@ -1012,6 +1013,7 @@
     position: fixed;
     right: 0;
     top: 0;
+    z-index: 500;
     .touxiang{
         width: 60px;
         height: auto;
