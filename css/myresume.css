@@ -596,6 +596,37 @@ img {
   margin-bottom: 100px;
 }
 
+.weibu .position .tubiao {
+  height: 200px;
+  width: 100%;
+}
+
+.weibu .position .tubiao div {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+}
+
+.weibu .position .tubiao div .ju {
+  margin-right: 30px;
+}
+
+.weibu .position .tubiao div span {
+  width: 100px;
+  height: 100px;
+  font-size: 28px;
+  color: #999;
+  position: relative;
+  float: left;
+  margin-left: 10px;
+}
+
+.weibu .position .tubiao div span img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 .weibu .position img {
   position: absolute;
   top: -340px;
@@ -693,7 +724,6 @@ img {
 
 .weibu .position .pinglun3 {
   height: 420px;
-  border: 0;
 }
 
 .weibu .position .pinglun3 #yin {

@@ -483,6 +483,33 @@
             position: relative;
             overflow: hidden;
             margin-bottom: 100px;
+            .tubiao{
+                height: 200px;
+                width: 100%;
+//              background: green;
+                   div{
+                       position: absolute;
+                       right: 20px;
+                       bottom: 30px;
+                        .ju{
+                            margin-right: 30px;
+                        }
+                       span{
+                           width: 100px;
+                           height: 100px;
+                           font-size: 28px;
+                           color:#999;
+                           position: relative;
+                           float: left;
+                           margin-left:10px ;
+                           img{
+                               position: absolute;
+                               left: 0;
+                               top: 0;
+                           }
+                       }
+                   }
+            }
             img{
                 position: absolute;
                 top: -340px;
@@ -569,7 +596,7 @@
             }
             .pinglun3{
                 height: 420px;
-                border: 0;
+//              border: 0;
                 #yin{
                     border: 0;
                 }
