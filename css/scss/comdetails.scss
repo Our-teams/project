@@ -1,15 +1,18 @@
 @import "base";
+@import url("header.css");
+@import url("footer.css");
+@import url("anv.css");
 body{
    background: #f4f4f4;
 }
 .dingbu{
     width: 550px;
     height: 229px;
-    margin-left: 280px;
+    margin-left: 200px;
     border-top:5px solid #10C8F0;
     background:#FFFFFF;
     box-shadow: 1px 1px 1px 1px #888;
-      margin-top:250px; ;
+      margin-top:100px; ;
       position: relative;
 }
 .team{
@@ -92,7 +95,7 @@ line-height: 43px;
 }
 .xian{
     border: 1px solid #888;
-    margin-left: 265px;
+   margin-left: 200px;
     width: 601px;
     margin-top: 80px;
 }
@@ -104,7 +107,8 @@ line-height: 43px;
     margin: 30px auto;
     border-bottom: 1px solid #888;
     background: #FFFFFF;
-     margin-left: 265px;
+    margin-left: 200px;
+    margin-top: 100px;
 }
 .k p{
     padding-top: 10px;
@@ -121,7 +125,7 @@ padding-left: 18px;
     /*margin: 30px auto;*/
     border-bottom: 1px solid #888;
     background: #FFFFFF;
-     margin-left: 265px;
+   margin-left: 200px;
      margin-top: -30px;
 
 }
@@ -133,7 +137,9 @@ padding-left: 18px;
     font-size: 13px;
     padding-left:18px;
 }
-
+.a p{
+    margin-left: 20px;
+}
 .l{
     width: 845px;
 
@@ -142,7 +148,7 @@ padding-left: 18px;
     margin: 30px auto;
     border-top: 1px solid #888;
     background: #FFFFFF;
-     margin-left: 265px;
+    margin-left: 200px;
      margin-top: -60px;
 
      
@@ -167,7 +173,7 @@ padding-left: 18px;
     margin: 30px auto;
     border-top: 1px solid #888;
     background: #FFFFFF;
-     margin-left: 265px;
+    margin-left: 200px;
      margin-top: -60px;
      
 }
@@ -183,5 +189,126 @@ padding-left: 18px;
 .right{
     width: 216px;
     height: 65px;
-    background:;
+     background:#FFFFFF;
+     float: right;
+     margin-right: 300px;
+        margin-top: -230px;
+//      text-align: center;
+     
+}
+.right p{
+    font-size: 10px;
+    color: #888;
+    padding-top: 10px;
+    margin-left: 10px;;
+}
+.right img{
+    padding-left: 80px;
+    margin-top: -80px;
+}
+.right span{
+    color: #F22626;
+    font-size: 18px;
+}
+.righttwo{
+    width: 216px;
+    height: 65px;
+     background:#FFFFFF;
+     float: right;
+     margin-right: 300px;
+        margin-top: -160px;
+//      text-align: center;
+     
+}
+.righttwo p{
+    font-size: 10px;
+    color: #888;
+    padding-top: 10px;
+    margin-left: 10px;;
+}
+.righttwo img{
+    padding-left: 80px;
+    margin-top: -80px;
+}
+.righttwo span{
+    color: #F22626;
+    font-size: 18px;
+}
+.rightthree{
+    width: 216px;
+    height: 65px;
+     background:#FFFFFF;
+     float: right;
+     margin-right: 300px;
+        margin-top: -89px;
+//      text-align: center;
+     
+}
+.rightthree p{
+    font-size: 10px;
+    color: #888;
+    padding-top: 10px;
+    margin-left: 10px;;
+}
+.rightthree img{
+    padding-left: 80px;
+    margin-top: -80px;
+}
+.rightthree span{
+    color: #F22626;
+    font-size: 18px;
+}
+.rightfore{
+    width: 216px;
+    height: 65px;
+     background:#FFFFFF;
+     float: right;
+     margin-right: 300px;
+        margin-top: -19px;
+//      text-align: center;
+     
+}
+.rightfore p{
+    font-size: 10px;
+    color: #888;
+    padding-top: 10px;
+    margin-left: 10px;;
+}
+.rightfore img{
+    padding-left: 80px;
+    margin-top: -80px;
+}
+.rightfore span{
+    color: #F22626;
+    font-size: 18px;
+}
+#di{
+     width: 845px;
+
+//  height: 100px;
+//  box-shadow: 1px  #888;
+    margin: 30px auto;
+    border-bottom: 1px solid #888;
+//  background: #FFFFFF;
+    margin-left: 200px;
+   
+    margin-top: 80px;
+}
+#di span{
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.lll{
+    margin-left: 300px;
+    
+}
+//div{
+//   border: 1px solid #888;
+// margin-left: 200px;
+//  width: 601px;
+//  margin-top: 80px;
+//}
+.gengduo img{
+    margin-left: 520px;
+    margin-top: 200px;
 }
