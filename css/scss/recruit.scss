@@ -280,7 +280,7 @@ $imgpath:"../img";
    overflow: hidden;
    .describe-mid{
        width: $inner-width;
-       height: auto;
+//     height: auto;
        margin: 0 auto;
        background: #fff;
        border-radius: 10px;
@@ -296,7 +296,8 @@ $imgpath:"../img";
       }
        .work-list{
            width: 100%;
-            background: #fff;
+           background: #fff;
+           border-radius: 10px;
           .deslis-eve{
               padding: 10px 0;
                padding-left: 56px;
