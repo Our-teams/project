@@ -169,6 +169,20 @@ body {
           height: 70px;
           width: 1px;
           border-left: 1px dashed #ECECEC; }
+          .banner .banner-img .banner-mid .box-person .dash .yuan {
+            content: "";
+            display: block;
+            width: 6px;
+            height: 6px;
+            background: #DCDCDC;
+            border-radius: 50%;
+            position: absolute;
+            left: -4px;
+            z-index: 1000; }
+          .banner .banner-img .banner-mid .box-person .dash .yuan1 {
+            top: -2px; }
+          .banner .banner-img .banner-mid .box-person .dash .yuan2 {
+            bottom: -2px; }
         .banner .banner-img .banner-mid .box-person .private {
           float: left;
           width: 182px;
@@ -194,7 +208,6 @@ body {
   overflow: hidden; }
   .describe .describe-mid {
     width: 1200px;
-    height: auto;
     margin: 0 auto;
     background: #fff;
     border-radius: 10px; }
@@ -208,7 +221,8 @@ body {
       bottom: 100px; }
     .describe .describe-mid .work-list {
       width: 100%;
-      background: #fff; }
+      background: #fff;
+      border-radius: 10px; }
       .describe .describe-mid .work-list .deslis-eve {
         padding: 10px 0;
         padding-left: 56px;
@@ -300,7 +314,8 @@ body {
         width: 89px;
         height: 89px;
         border: 1px solid #EFEFEF;
-        float: left; }
+        float: left;
+        overflow: hidden; }
         .baodeli .baodeli-mid .loges .sign img {
           position: absolute;
           top: 0;
@@ -354,17 +369,22 @@ body {
         overflow: hidden; }
         .baodeli .baodeli-mid .aboutall .about-lis .box {
           float: left;
-          width: 88px;
-          height: 20px;
+          width: 102px;
+          height: 24px;
           border: 1px solid #efefef;
           border-radius: 2px; }
           .baodeli .baodeli-mid .aboutall .about-lis .box img {
-            margin: 0 4px; }
+            margin: 0 4px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto; }
           .baodeli .baodeli-mid .aboutall .about-lis .box .category {
             height: 100%;
-            font-size: 14px;
+            font-size: 8px;
             line-height: 20px;
-            margin-bottom: 2px; }
+            margin-bottom: 2px;
+            padding-left: 20px; }
         .baodeli .baodeli-mid .aboutall .about-lis .tell {
           float: left;
           padding: 0 20px;

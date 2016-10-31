@@ -20,12 +20,13 @@
         .type{
             float: left;
             margin-top: 60px;
-            margin-right: 45px;
+            width: 237px;
+            padding-right: 45px;
             a{
                 display: block;
                 width: auto;
                 height: auto;
-                padding-right: 50px;
+//              padding-right: 50px;
                 span{
                     font-size: 14px;
                     color: #ccc;
@@ -33,19 +34,44 @@
                     letter-spacing:2px;
                 }
                 hr{
-                    color: #fff;
+                    color: #999;
                     width: 50px;
                     height: 1px;
                     border-top:0 ;
                     border-bottom: 0;
-                    border-left:65px solid #fff ;
+                    border-left:65px solid #999;
                     border-right: 10px solid #ffcd1f;
                     margin: 5px 0;
                 }
                 p{
-                    font-size: 18px;
                     color: #fff;
                     line-height: 1.1;
+                }
+                &:after{
+                    content: "";
+                    border-right: 1px dashed #999;
+                    display: block;
+                    position: absolute;
+                    left: 192px;
+                    top: 7px;
+                    height: 40px;
+                }
+            }
+            .act{
+                margin-top: 8px;
+                display: none;
+                img{
+                    display: block;
+                }
+            }
+            .headermove{
+                display: block;
+            }
+        }
+        .type:nth-of-type(4){
+            a{
+                &:after{
+                    border: 0;
                 }
             }
         }

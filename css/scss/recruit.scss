@@ -232,6 +232,23 @@ $imgpath:"../img";
                    height: 70px;
                    width: 1px;
                    border-left: 1px dashed #ECECEC;
+                   .yuan{
+                       content: "";
+                       display: block;
+                       width: 6px;
+                       height: 6px;
+                       background: #DCDCDC;
+                       border-radius: 50%;
+                       position: absolute;
+                       left: -4px;
+                       z-index: 1000;
+                   }
+                   .yuan1{
+                       top: -2px;
+                   }
+                   .yuan2{
+                       bottom: -2px;
+                   }
                }
                .private{
                    float: left;
@@ -263,7 +280,7 @@ $imgpath:"../img";
    overflow: hidden;
    .describe-mid{
        width: $inner-width;
-       height: auto;
+//     height: auto;
        margin: 0 auto;
        background: #fff;
        border-radius: 10px;
@@ -279,7 +296,8 @@ $imgpath:"../img";
       }
        .work-list{
            width: 100%;
-            background: #fff;
+           background: #fff;
+           border-radius: 10px;
           .deslis-eve{
               padding: 10px 0;
                padding-left: 56px;
@@ -388,6 +406,7 @@ $imgpath:"../img";
                 height: 89px;
                 border: 1px solid #EFEFEF;
                 float: left;
+                overflow: hidden;
                 img{
                     @include center;
                 }
@@ -450,18 +469,21 @@ $imgpath:"../img";
                 overflow: hidden;
                 .box{
                     float: left;
-                    width: 88px;
-                    height: 20px;
+                    width: 102px;
+                    height: 24px;
                     border: 1px solid #efefef;
                     border-radius: 2px;
                     img{
                         margin:0 4px;
+                        @include vertical;
+                        
                     }
                     .category{
                         height: 100%;
-                        font-size: 14px;
+                        font-size: 8px;
                         line-height: 20px;
                         margin-bottom: 2px;
+                        padding-left: 20px;
                     }
                 }
                 .tell{
