@@ -57,7 +57,7 @@ body {
         height: 82px;
         background: #1893D1;
         box-sizing: border-box;
-        padding: 16px;
+        padding: 12px 10px 0;
         border-radius: 4px; }
         .banner .banner-img .banner-mid .uides .site {
           margin-top: 4px;
@@ -226,7 +226,7 @@ body {
             position: absolute;
             left: 0;
             top: 0;
-            top: 14px;
+            top: 8px;
             left: -2px; }
           .describe .describe-mid .work-list .deslis-eve .head .one {
             font-size: 15px;
@@ -404,7 +404,7 @@ body {
         position: absolute;
         left: 0;
         top: 0;
-        top: 14px;
+        top: 8px;
         left: 16px; }
       .comment .comment-mid .head .one {
         font-size: 15px;
