@@ -879,3 +879,100 @@
     
     
 }
+#footer{
+    width: 100%;
+    height: 304px;
+    background-color: #2d2d2d;
+    .ftbox{
+        width: 1200px;
+        height: 100%;
+        @include level;
+        .ftlogo{
+            display: block;
+            float: left;
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-top: 75px;
+        }
+        .gedang{
+            float: left;
+            width: 1px;
+            height: 136px;
+            margin-top: 70px;
+            border-right: 1px solid #999;
+            &:after{
+                content: "";
+                display: block;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background: #999;
+                position: absolute;
+                bottom: 0;
+                left: -2px;
+            }
+            &:before{
+                content: "";
+                display: block;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background: #999;
+                position: absolute;
+                top: 0;
+                left: -2px;
+            }
+        }
+        .ftcenter{
+            float: left;
+            max-width: 670px;
+            height: auto;
+            margin-left: 45px;
+            .about{
+                margin-top: 70px;
+                li{
+                    float: left;
+                    margin-right: 45px;
+                    a{
+                        color: #a7a5a5;
+                        font-size: 16px;
+                    }
+                }   
+            }
+            .xuxian{
+                width: 250px;
+                height: 2px;
+                border-bottom: 2px dotted #999;
+                border-right: 0;
+                border-left: 0;
+                border-top: 0;
+                float: left;
+                margin: 12px 0;
+            }
+            .ICP{
+                float: left;
+                line-height: 1;
+                span{
+                    font-size: 14px;
+                    color: #999;
+                }
+            }
+            .icon{
+                float: left;
+                img{
+                    display: block;
+                    float: left;
+                    margin: 25px 25px 0 0;
+                }
+            }
+        }
+        .QRcode{
+            position: absolute;
+            right: 0;
+            top: 70px;
+            width: 140px;
+            height: 140px;
+            background: #25b0ff;
+        }
+    }
+}
