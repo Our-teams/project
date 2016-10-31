@@ -1,47 +1,60 @@
+@import url("header.css");
+@import url("footer.css");
+
 *{
     padding:0;
     margin:0;
     text-decoration: none;
     list-style:none;
     color:#AFAFAF;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "微软雅黑";
 }
-
+html{
+    background: #F4F4F4;
+}
 //main
 form{
     width:1200px;
     height: auto;
     margin:0 auto;
+    padding-bottom:40px;
+    background: #fff;
 }
 table{
-    width:800px;
+    width:850px;
     height: auto;
-    margin:30px auto;
+    padding-top:40px ;
+    margin:20px auto;
     border:0;
 }
 tr{
-    height: 40px;
+    height: 44px;
     td{
-        width:48px;
-        height: 30px;
+        height: 28px;
+        width:120px;
     }
     .zhong{
         margin-left: 40px;
     }
+    .zhong2{
+        margin-left: 25px;
+    }
     .touxiang img{
         border-radius: 10%;
     }
+    
     td.xiu a{
         display: block;
         width:97px;
         height: 28px;
     }
     td.biao{
-        padding: 10px;
+//      padding: 10px;
     }  
     input.text{
         width:160px;
+        height: 30px;
     }
     input.qian{
         width:320px;
@@ -49,10 +62,26 @@ tr{
     }
     .xiugai{
         background: url(../img/base/button.png);
-        font-size: 14px;
-        font-weight: 300;
+        font-size: 8px;
         color:#fff;
+        border:0;
+        line-height: 28px;
+        border-radius: 30%;
+        width:97px;
+        height: 28px;
     }
+}
+select{
+    height: 30px;
+}
+select.sel{
+    width:200px;
+}
+select.sel1{
+    width:160px;
+}
+select.sel2{
+    width:120px;
 }
 #but{
     width:460px;

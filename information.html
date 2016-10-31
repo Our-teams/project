@@ -7,7 +7,46 @@
 	<link rel="stylesheet" href="css/information.css" />
 	<body>
 	<!-- header -->
-		
+		<div id="header">
+			<ul class="typebox">
+				<div class="logo">
+					<img src="img/header/logo.png"/>
+				</div>
+				<li class="type">
+					<a href="" class="typebutton">
+						<span>Display of works</span>
+						<hr />
+						<p>作品展示</p>
+					</a>
+				</li>
+				<li class="type">
+					<a href="" class="typebutton">
+						<span>Display of works</span>
+						<hr />
+						<p>行業新聞</p>
+					</a>
+				</li>
+				<li class="type">
+					<a href="" class="typebutton">
+						<span>Display of works</span>
+						<hr />
+						<p>視頻介紹</p>
+					</a>
+				</li>
+				<li class="type">
+					<a href="" class="typebutton">
+						<span>Display of works</span>
+						<hr />
+						<p>招聘信息</p>
+					</a>
+				</li>
+				<div class="search">
+					<div class="yuan"></div>
+					<input type="text" />
+					<img src="img/header/search.png" alt="" />
+				</div>
+			</ul>
+		</div>
 	<!-- main -->
 		<form>
 			<table>
@@ -38,7 +77,7 @@
 						</select>
 					</td>
 					<td>
-						<span>年龄：</span>
+						<span class="zhong">年龄：</span>
 					</td>
 					<td>
 						<select  name="age" id="age">
@@ -68,12 +107,11 @@
 					<td>
 						<input class="text" type="text" name="name" id="name" value="" />
 					</td>
-				</tr>
-					<td class="biao">
-						<span>身份状态：</span>
-					</td>
 					<td>
-						<select name="zhuangtai" id="zhuangtai">
+						<span class="zhong">身份状态：</span>
+					</td>
+					<td colspan="3">
+						<select name="zhuangtai" id="zhuangtai" class="sel">
 							<option value="">离职，寻找工作</option>
 						</select>
 					</td>
@@ -83,19 +121,19 @@
 						<span>求职意向：</span>
 					</td>
 					<td>
-						<select name="yixiang" id="yixiang">
+						<select name="yixiang" id="yixiang" class="sel2">
 							<option value="">交互设计师</option>
 						</select>
 					</td>
 					<td>
 						<span class="zhong">求职城市:</span>
 					</td>
-					<td>
-						<select name="sheng" id="sheng">
+					<td colspan="3">
+						<select name="sheng" id="sheng" class="sel2">
 							<option value="">山西省</option>
 							<option value="">陕西省</option>
 						</select>
-						<select name="city" id="city">
+						<select name="city" id="city" class="sel2">
 							<option value="">太原市</option>
 							<option value="">大同市</option>
 						</select>
@@ -106,7 +144,7 @@
 						<span>目标薪资：</span>
 					</td>
 					<td>
-						<select name="qian" id="qian">
+						<select name="qian" id="qian" class="sel1">
 							<option value="">3K-5K</option>
 							<option value="">5K-8K</option>
 						</select>
@@ -119,8 +157,10 @@
 					<td>
 						<input class="text" type="text" name="tel" id="tel" value="" />
 					</td>
-					<td class="xiu">
-						<a href="" class="xiugai">&nbsp; 修改手机号</a>
+					<td class="xiu" colspan="2">
+						<a href="" class="zhong2">
+							<input type="button" name="" class="xiugai" id="" value="修改手机号" />
+						</a>
 					</td>
 				</tr>
 				<tr>
@@ -130,8 +170,10 @@
 					<td>
 						<input class="text" type="text" name="tel" id="tel" value="" />
 					</td>
-					<td class="xiu">
-						<a href="" class="xiugai">&nbsp; 修改邮箱</a>
+					<td class="xiu"  colspan="2">
+						<a href="" class="zhong2">
+							<input type="button" class="xiugai" name="" id="" value="修改邮箱&nbsp;" />
+						</a>
 					</td>
 				</tr>
 				<tr></tr>
@@ -146,7 +188,7 @@
 					<td>
 						<span class="zhong">专业名称：</span>
 					</td>
-					<td>
+					<td colspan="3">
 						<input class="text" type="text" name="zhuanye" id="zhuanye" value="" />
 					</td>
 				</tr>
@@ -155,7 +197,7 @@
 						<span>毕业时间：</span>
 					</td>
 					<td>
-						<select name="time" id="time">
+						<select name="time" id="time" class="sel1">
 							<option value="">2011</option>
 							<option value="">2012</option>
 							<option value="">2013</option>
@@ -164,8 +206,8 @@
 					<td>
 						<span class="zhong">学历：</span>
 					</td>
-					<td>
-						<select name="xueli" id="xueli">
+					<td colspan="3">
+						<select name="xueli" id="xueli" class="sel2">
 							<option value="">高中</option>
 							<option value="">大学</option>
 							<option value="">研究生</option>
@@ -177,7 +219,7 @@
 						<span>工作经验：</span>
 					</td>
 					<td>
-						<select name="jingyan" id="jingyan">
+						<select name="jingyan" id="jingyan" class="sel2">
 							<option value="">应届生</option>
 							<option value="">往届生</option>
 						</select>
@@ -191,7 +233,33 @@
 				<input type="button" value="保存修改" />
 			</div>
 		</form>
-		<!-- footer -->
+	<!-- footer -->
+		<div id="footer">
+			<div class="ftbox">
+				<img src="img/header/logo.png" alt="" class="ftlogo"/>
+				<div class="gedang"></div>
+				<div class="ftcenter">
+					<ul class="about">
+						<li><a href="">商务合作</a></li>
+						<li><a href="">意见反馈</a></li>
+						<li><a href="">关于我们</a></li>
+						<li><a href="">联系我们</a></li>
+						<li><a href="">版权声明</a></li>
+						<li><a href="">隐私保护</a></li>	
+					</ul>
+					<div class="xuxian"></div>
+					<div class="ICP">
+						<span>ICP备14007358号-1 / 京公网安备11010802014104号 / Powered by © 2008-2016 UI.CN</span>
+					</div>
+					<div class="icon">
+						<img src="img/header/wx.png" alt="" />
+						<img src="img/header/qq7.png" alt="" />
+						<img src="img/header/wb.png" alt="" />
+					</div>
+				</div>
+				<div class="QRcode"></div>
+			</div>
+		</div>
 		
 	</body>
 </html>
