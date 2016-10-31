@@ -451,6 +451,13 @@ img {
   height: 40px;
   width: 80%;
   float: left;
+  position: relative;
+}
+
+#content .referrer .referrer-left .referrer-top .hen {
+  position: absolute;
+  left: 5px;
+  top: 0;
 }
 
 #content .referrer .referrer-left .referrer-top p, #content .referrer .referrer-left .referrer-top a, #content .referrer .referrer-left .referrer-top h3 {
@@ -517,6 +524,13 @@ img {
   height: 40px;
   width: 80%;
   float: left;
+  position: relative;
+}
+
+#content .referrer .referrer-right .referrer-top .hen {
+  position: absolute;
+  left: 5px;
+  top: 0;
 }
 
 #content .referrer .referrer-right .referrer-top p, #content .referrer .referrer-right .referrer-top a, #content .referrer .referrer-right .referrer-top h3 {
@@ -760,6 +774,13 @@ img {
   margin-bottom: 60px;
   height: 40px;
   width: 100%;
+  position: relative;
+}
+
+#content .recommend img {
+  position: absolute;
+  left: 10px;
+  top: 0;
 }
 
 #content .recommend p, #content .recommend a, #content .recommend h3 {
