@@ -52,6 +52,7 @@
                 }
             }
         }
+        
         .search{
             position: absolute;
             right: -125px;
@@ -339,9 +340,10 @@
 }
 #content{
     overflow: hidden;
-    margin: 200px auto;
+    margin: 150px auto;
     margin-bottom: 0px;
     width: 1240px;
+    
     
     .plate{
         width: 1240px;
@@ -513,9 +515,235 @@
             border: 1px solid #2c87f8;
         }
     }
+    .recommend{
+        margin:100px auto ;
+        margin-bottom: 60px;
+        height: 40px;
+        width: 100%;
+        
+        p,a,h3{
+            float: left;
+            height: 42px;
+            width: auto;
+        }
+        p{
+            margin-left: 10px;
+            line-height:40px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        h3{
+            margin-left: 10px;
+            color: #45b45a;
+            line-height:40px;
+            font-size: 30px;
+            font-weight: 600;
+            margin-top: -3px;
+        }
+        a{
+            margin-left: 20px;
+            font-size: 15px;
+            color: #FFFFFF;
+            line-height: 40px;
+            text-align: center;
+            width:145px;
+            font-weight: bold;
+        }
+        .one{
+            background: url($imgpath+"/base/big-buttom.png");
+        }
+        .two{
+            background: url($imgpath+"/base/big-button.png");
+            
+        }
+        .three{
+            background: url($imgpath+"/base/button.png");
+            background-size: cover;
+        }
+    }
     
-    
-    
+    .introduce{
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 350px;
+        
+        .introduce-one{
+            width: 33.3%;
+            height: auto;
+            overflow: hidden;
+            float: left;
+            position: relative;
+            img{
+                float: left;
+                width: 90%;
+                margin-left: 20px;
+            }
+            .introduce-text{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 90px;
+                width: 100%;
+                background: #fff;
+                
+                .text-left{
+                    width: 70%;
+                    float: left;
+                    height: 100%;
+                    
+                    h2{
+                       margin-top: 10px;
+                       margin-left: 15px;
+                       float: left;
+                       width: 100%;
+                       height: 30px;
+                       line-height: 30px;
+                       font-size: 20px;
+                       font-weight: bold;
+                       color: #000;
+                    }
+                    span{
+
+                       margin-left: 15px;
+                       float: left;
+                       width: 100%;
+                       height: 25px;
+                       line-height: 25px;
+                       font-size: 17px;
+                       color: #000;
+                    }
+                }
+                .text-right{
+                     width: 30%;
+                     float: left;
+                     height: 100%;
+                     
+                     img{
+                         margin-top: 10px;
+                         width:78px ;
+                     }
+                }
+            }
+        }
+        .introduce-two{
+            width: 33.3%;
+            height: auto;
+            overflow: hidden;
+            float: left;
+            position: relative;
+            img{
+                float: left;
+                width: 90%;
+                margin-left: 20px;
+            }
+            .introduce-text{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 90px;
+                width: 100%;
+                background: #fff;
+                
+                .text-left{
+                    width: 70%;
+                    float: left;
+                    height: 100%;
+                    
+                    h2{
+                       margin-top: 10px;
+                       margin-left: 15px;
+                       float: left;
+                       width: 100%;
+                       height: 30px;
+                       line-height: 30px;
+                       font-size: 20px;
+                       font-weight: bold;
+                       color: #000;
+                    }
+                    span{
+
+                       margin-left: 15px;
+                       float: left;
+                       width: 100%;
+                       height: 25px;
+                       line-height: 25px;
+                       font-size: 17px;
+                       color: #000;
+                    }
+                }
+                .text-right{
+                     width: 30%;
+                     float: left;
+                     height: 100%;
+                     
+                     img{
+                         margin-top: 10px;
+                         width:78px ;
+                     }
+                }
+            }
+        }
+        .introduce-three{
+            width: 33.3%;
+            height: auto;
+            float: left;
+            overflow: hidden;
+            position: relative;
+            img{
+                float: left;
+                width: 90%;
+                margin-left: 20px;
+                
+            }
+            .introduce-text{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                height: 90px;
+                width: 100%;
+                background: #fff;
+                
+                .text-left{
+                    width: 70%;
+                    float: left;
+                    height: 100%;
+                    
+                    h2{
+                       margin-top: 10px;
+                       margin-left: 15px;
+                       float: left;
+                       width: 100%;
+                       height: 30px;
+                       line-height: 30px;
+                       font-size: 20px;
+                       font-weight: bold;
+                       color: #000;
+                    }
+                    span{
+
+                       margin-left: 15px;
+                       float: left;
+                       width: 100%;
+                       height: 25px;
+                       line-height: 25px;
+                       font-size: 17px;
+                       color: #000;
+                    }
+                }
+                .text-right{
+                     width: 30%;
+                     float: left;
+                     height: 100%;
+                     
+                     img{
+                         margin-top: 10px;
+                         width:78px ;
+                     }
+                }
+            }
+        }
+    }
     
     
     

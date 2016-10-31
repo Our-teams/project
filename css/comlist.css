@@ -397,7 +397,7 @@ img {
 
 #content {
   overflow: hidden;
-  margin: 200px auto;
+  margin: 150px auto;
   margin-bottom: 0px;
   width: 1240px;
 }
@@ -585,4 +585,249 @@ img {
   background: #2c87f8;
   color: #fff;
   border: 1px solid #2c87f8;
+}
+
+#content .recommend {
+  margin: 100px auto;
+  margin-bottom: 60px;
+  height: 40px;
+  width: 100%;
+}
+
+#content .recommend p, #content .recommend a, #content .recommend h3 {
+  float: left;
+  height: 42px;
+  width: auto;
+}
+
+#content .recommend p {
+  margin-left: 10px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#content .recommend h3 {
+  margin-left: 10px;
+  color: #45b45a;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: -3px;
+}
+
+#content .recommend a {
+  margin-left: 20px;
+  font-size: 15px;
+  color: #FFFFFF;
+  line-height: 40px;
+  text-align: center;
+  width: 145px;
+  font-weight: bold;
+}
+
+#content .recommend .one {
+  background: url("../img/base/big-buttom.png");
+}
+
+#content .recommend .two {
+  background: url("../img/base/big-button.png");
+}
+
+#content .recommend .three {
+  background: url("../img/base/button.png");
+  background-size: cover;
+}
+
+#content .introduce {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 350px;
+}
+
+#content .introduce .introduce-one {
+  width: 33.3%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+
+#content .introduce .introduce-one img {
+  float: left;
+  width: 90%;
+  margin-left: 20px;
+}
+
+#content .introduce .introduce-one .introduce-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  background: #fff;
+}
+
+#content .introduce .introduce-one .introduce-text .text-left {
+  width: 70%;
+  float: left;
+  height: 100%;
+}
+
+#content .introduce .introduce-one .introduce-text .text-left h2 {
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+#content .introduce .introduce-one .introduce-text .text-left span {
+  margin-left: 15px;
+  float: left;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  font-size: 17px;
+  color: #000;
+}
+
+#content .introduce .introduce-one .introduce-text .text-right {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+
+#content .introduce .introduce-one .introduce-text .text-right img {
+  margin-top: 10px;
+  width: 78px;
+}
+
+#content .introduce .introduce-two {
+  width: 33.3%;
+  height: auto;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+
+#content .introduce .introduce-two img {
+  float: left;
+  width: 90%;
+  margin-left: 20px;
+}
+
+#content .introduce .introduce-two .introduce-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  background: #fff;
+}
+
+#content .introduce .introduce-two .introduce-text .text-left {
+  width: 70%;
+  float: left;
+  height: 100%;
+}
+
+#content .introduce .introduce-two .introduce-text .text-left h2 {
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+#content .introduce .introduce-two .introduce-text .text-left span {
+  margin-left: 15px;
+  float: left;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  font-size: 17px;
+  color: #000;
+}
+
+#content .introduce .introduce-two .introduce-text .text-right {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+
+#content .introduce .introduce-two .introduce-text .text-right img {
+  margin-top: 10px;
+  width: 78px;
+}
+
+#content .introduce .introduce-three {
+  width: 33.3%;
+  height: auto;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+#content .introduce .introduce-three img {
+  float: left;
+  width: 90%;
+  margin-left: 20px;
+}
+
+#content .introduce .introduce-three .introduce-text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+  width: 100%;
+  background: #fff;
+}
+
+#content .introduce .introduce-three .introduce-text .text-left {
+  width: 70%;
+  float: left;
+  height: 100%;
+}
+
+#content .introduce .introduce-three .introduce-text .text-left h2 {
+  margin-top: 10px;
+  margin-left: 15px;
+  float: left;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+#content .introduce .introduce-three .introduce-text .text-left span {
+  margin-left: 15px;
+  float: left;
+  width: 100%;
+  height: 25px;
+  line-height: 25px;
+  font-size: 17px;
+  color: #000;
+}
+
+#content .introduce .introduce-three .introduce-text .text-right {
+  width: 30%;
+  float: left;
+  height: 100%;
+}
+
+#content .introduce .introduce-three .introduce-text .text-right img {
+  margin-top: 10px;
+  width: 78px;
 }
