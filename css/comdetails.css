@@ -29,7 +29,6 @@ body {
 .dingbu {
   width: 550px;
   height: 229px;
-  margin-left: 200px;
   border-top: 5px solid #10C8F0;
   background: #FFFFFF;
   box-shadow: 1px 1px 1px 1px #888;
@@ -295,3 +294,8 @@ body {
 .gengduo img {
   margin-left: 520px;
   margin-top: 200px; }
+
+#topp {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto; }
