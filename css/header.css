@@ -5,16 +5,13 @@
   list-style: none;
   box-sizing: border-box;
   position: relative;
-  font-family: "microsoft yahei";
-}
+  font-family: "microsoft yahei"; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 img {
-  border: 0;
-}
+  border: 0; }
 
 /*垂直居中vertical*/
 /*水平居中level*/
@@ -27,120 +24,110 @@ img {
   background-color: #14587f;
   height: 145px;
   width: 100%;
-  opacity: 1;
-}
-
-#header .typebox {
-  width: 1200px;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-#header .typebox .logo {
-  position: absolute;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  left: -140px;
-}
-
-#header .typebox .logo img {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-}
-
-#header .typebox .type {
-  float: left;
-  margin-top: 60px;
-  margin-right: 45px;
-}
-
-#header .typebox .type a {
-  display: block;
-  width: auto;
-  height: auto;
-  padding-right: 50px;
-}
-
-#header .typebox .type a span {
-  font-size: 14px;
-  color: #ccc;
-  line-height: 1.1;
-  letter-spacing: 2px;
-}
-
-#header .typebox .type a hr {
-  color: #fff;
-  width: 50px;
-  height: 1px;
-  border-top: 0;
-  border-bottom: 0;
-  border-left: 65px solid #fff;
-  border-right: 10px solid #ffcd1f;
-  margin: 5px 0;
-}
-
-#header .typebox .type a p {
-  font-size: 18px;
-  color: #fff;
-  line-height: 1.1;
-}
-
-#header .typebox .search {
-  position: absolute;
-  right: -125px;
-  top: 65px;
-  width: 423px;
-  height: 47px;
-  border: 2px solid #ccc;
-  border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.1);
-  z-index: 0;
-}
-
-#header .typebox .search .yuan {
-  position: absolute;
-  left: 10px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background-color: #ffcd1f;
-  z-index: 3;
-}
-
-#header .typebox .search .yuan:after {
-  content: "|";
-  display: block;
-  position: absolute;
-  left: 24px;
-  top: -8px;
-  color: #ccc;
-}
-
-#header .typebox .search input {
-  position: absolute;
-  border: 0;
-  background: transparent;
-  width: 310px;
-  height: 43px;
-  left: 37px;
-  top: 0;
-  z-index: 2;
-}
-
-#header .typebox .search img {
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
+  opacity: 1; }
+  #header .typebox {
+    width: 1200px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto; }
+    #header .typebox .logo {
+      position: absolute;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: -140px; }
+      #header .typebox .logo img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto; }
+    #header .typebox .type {
+      float: left;
+      margin-top: 60px;
+      width: 237px;
+      padding-right: 45px; }
+      #header .typebox .type a {
+        display: block;
+        width: auto;
+        height: auto; }
+        #header .typebox .type a span {
+          font-size: 14px;
+          color: #ccc;
+          line-height: 1.1;
+          letter-spacing: 2px; }
+        #header .typebox .type a hr {
+          color: #999;
+          width: 50px;
+          height: 1px;
+          border-top: 0;
+          border-bottom: 0;
+          border-left: 65px solid #999;
+          border-right: 10px solid #ffcd1f;
+          margin: 5px 0; }
+        #header .typebox .type a p {
+          font-size: 18px;
+          color: #fff;
+          line-height: 1.1; }
+        #header .typebox .type a:after {
+          content: "";
+          border-right: 1px dashed #999;
+          display: block;
+          position: absolute;
+          left: 192px;
+          top: 7px;
+          height: 40px; }
+      #header .typebox .type .act {
+        margin-top: 8px;
+        display: none; }
+        #header .typebox .type .act img {
+          display: block; }
+      #header .typebox .type .headermove {
+        display: block; }
+    #header .typebox .type:nth-of-type(4) a:after {
+      border: 0; }
+    #header .typebox .search {
+      position: absolute;
+      right: -125px;
+      top: 65px;
+      width: 423px;
+      height: 47px;
+      border: 2px solid #ccc;
+      border-radius: 30px;
+      background-color: rgba(255, 255, 255, 0.1);
+      z-index: 0; }
+      #header .typebox .search .yuan {
+        position: absolute;
+        left: 10px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #ffcd1f;
+        z-index: 3; }
+        #header .typebox .search .yuan:after {
+          content: "|";
+          display: block;
+          position: absolute;
+          left: 24px;
+          top: -8px;
+          color: #ccc; }
+      #header .typebox .search input {
+        position: absolute;
+        border: 0;
+        background: transparent;
+        width: 310px;
+        height: 43px;
+        left: 37px;
+        top: 0;
+        z-index: 2; }
+      #header .typebox .search img {
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1; }
