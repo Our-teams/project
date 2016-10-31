@@ -393,7 +393,13 @@
                 height: 40px;
                 width: 80%;
                 float: left;
+                position: relative;
                 
+                .hen{
+                    position: absolute;
+                    left: 5px;
+                    top: 0;
+                }
                 p,a,h3{
                     float: left;
                     height: 42px;
@@ -455,6 +461,13 @@
                 height: 40px;
                 width: 80%;
                 float: left;
+                position: relative;
+                
+                .hen{
+                    position: absolute;
+                    left: 5px;
+                    top: 0;
+                }
                 
                 p,a,h3{
                     float: left;
@@ -680,6 +693,14 @@
         margin-bottom: 60px;
         height: 40px;
         width: 100%;
+        position: relative;
+        
+        img{
+            position: absolute;
+            left: 10px;
+            top: 0;
+           
+        }
         
         p,a,h3{
             float: left;
@@ -1013,6 +1034,7 @@
     position: fixed;
     right: 0;
     top: 0;
+    z-index: 500;
     .touxiang{
         width: 60px;
         height: auto;
