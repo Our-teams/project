@@ -5,8 +5,7 @@
 		<title>个人信息</title>
 	</head>
 	<link rel="stylesheet" href="css/information.css" />
-	<script src="js/jquery.js"></script>
-	<script src="js/header.js"></script>
+	
 	<body>
 	<!-- header -->
 		<div id="header">
@@ -120,7 +119,6 @@
 					<td colspan="3">
 						<select name="zhuangtai" id="zhuangtai" class="sel">
 							<option value="">离职，寻找工作</option>
-							<option value="">想要跳槽</option>
 						</select>
 					</td>
 				</tr>
@@ -139,13 +137,11 @@
 						<span class="zhong">求职城市:</span>
 					</td>
 					<td colspan="3">
-						<select name="sheng" id="sheng" class="sel2">
-							<option value="">山西省</option>
-							<option value="">陕西省</option>
+						<select name="sheng" id="province" class="sel2">
+							<option value="">-----省-----</option>
 						</select>
 						<select name="city" id="city" class="sel2">
-							<option value="">太原市</option>
-							<option value="">大同市</option>
+							<option value="">-----市-----</option>
 						</select>
 					</td>
 				</tr>
@@ -271,5 +267,9 @@
 			</div>
 		</div>
 		
+	<script src="js/jquery.js"></script>
+	<script src="js/header.js"></script>
+	<script type="text/javascript" src="js/variables.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 	</body>
 </html>
