@@ -1,3 +1,425 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  font-family: "microsoft yahei";
+  font-weight: normal; }
 
+body {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  vertical-align: middle; }
+
+body {
+  background: #F4F4F4; }
+
+/*vertical*/
+/*level*/
+/* all center*/
+/*$inner-width*/
+/*$articleColor*/
+/*$titleColor*/
+/*$imgpath:"../img";*/
+/*banner*/
+.banner {
+  width: 100%;
+  height: 608px;
+  background: url(../img/base/banner.png) 0 0 no-repeat; }
+  .banner .banner-img {
+    position: absolute;
+    left: 0;
+    top: 120px;
+    width: 100%;
+    height: auto;
+    background: url(../img/base/banner.png) 0 0 no-repeat; }
+    .banner .banner-img .banner-mid {
+      width: 1200px;
+      margin: 0 auto;
+      border-radius: 10px;
+      background: #fff; }
+      .banner .banner-img .banner-mid .jianli {
+        position: absolute;
+        right: 146px;
+        top: 60px; }
+      .banner .banner-img .banner-mid .uides {
+        position: absolute;
+        left: 0;
+        top: 0;
+        left: 42px;
+        top: -8px;
+        width: 264px;
+        height: 82px;
+        background: #1893D1;
+        box-sizing: border-box;
+        padding: 16px;
+        border-radius: 4px; }
+        .banner .banner-img .banner-mid .uides .site {
+          margin-top: 4px;
+          font-size: 14px;
+          color: #fff;
+          text-spacing: 0.3em; }
+        .banner .banner-img .banner-mid .uides .ui {
+          margin-top: 4px;
+          font-size: 24px;
+          color: #fff;
+          text-align: left;
+          padding: 0 6px;
+          font-weight: normal; }
+        .banner .banner-img .banner-mid .uides .jiao1 {
+          position: absolute;
+          left: -4px;
+          top: 2px;
+          width: 0px;
+          height: 0;
+          border-top: 6px solid transparent;
+          border-left: 6px solid #0074B0;
+          border-right: 6px solid transparent;
+          border-bottom: 6px solid transparent;
+          transform: rotate(45deg); }
+        .banner .banner-img .banner-mid .uides .jiao2 {
+          position: absolute;
+          right: -4px;
+          top: 2px;
+          width: 0px;
+          height: 0;
+          border-top: 6px solid transparent;
+          border-left: 6px solid #0074B0;
+          border-right: 6px solid transparent;
+          border-bottom: 6px solid transparent;
+          transform: rotate(-225deg); }
+      .banner .banner-img .banner-mid .job {
+        height: auto;
+        width: 100%;
+        padding: 90px 110px 40px 50px;
+        box-sizing: border-box; }
+        .banner .banner-img .banner-mid .job .job-about {
+          width: 100%;
+          height: auto;
+          padding: 4px 0;
+          font-size: 18px; }
+          .banner .banner-img .banner-mid .job .job-about i {
+            color: #F10000;
+            padding: 0 6px; }
+          .banner .banner-img .banner-mid .job .job-about .redword {
+            color: #000000; }
+          .banner .banner-img .banner-mid .job .job-about p {
+            display: inline-block;
+            padding-left: 6px;
+            color: #888787; }
+      .banner .banner-img .banner-mid .release {
+        padding: 10px 0;
+        color: #78E0AC; }
+      .banner .banner-img .banner-mid .box-person {
+        border: 1px dashed #DCDCDC;
+        width: 1038px;
+        height: 150px;
+        box-sizing: border-box;
+        margin-top: 100px;
+        overflow: hidden; }
+        .banner .banner-img .banner-mid .box-person .head-cir {
+          float: left;
+          width: 116px;
+          height: 116px;
+          overflow: hidden;
+          margin: 17px 20px; }
+          .banner .banner-img .banner-mid .box-person .head-cir img {
+            width: 100%; }
+        .banner .banner-img .banner-mid .box-person .boss {
+          height: 100%;
+          width: 314px;
+          line-height: 100%;
+          padding: 45px 0;
+          float: left; }
+          .banner .banner-img .banner-mid .box-person .boss h1 {
+            font-size: 24px;
+            color: #333;
+            padding: 6px 0; }
+          .banner .banner-img .banner-mid .box-person .boss h2 {
+            font-size: 15px;
+            color: #888787;
+            padding: 6px 0; }
+        .banner .banner-img .banner-mid .box-person h4 {
+          float: left;
+          color: #888787;
+          padding: 62px 0; }
+        .banner .banner-img .banner-mid .box-person .dash {
+          float: left;
+          margin: 40px 66px;
+          height: 70px;
+          width: 1px;
+          border-left: 1px dashed #ECECEC; }
+        .banner .banner-img .banner-mid .box-person .private {
+          float: left;
+          width: 182px;
+          height: 58px;
+          background: #5BDB9D;
+          text-align: center;
+          line-height: 58px;
+          margin: 46px 0; }
+          .banner .banner-img .banner-mid .box-person .private a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #FFF;
+            font-size: 18px; }
+
+/*describe*/
+/*and*/
+/*company*/
+.describe {
+  margin-top: 8px;
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+  .describe .describe-mid {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 10px; }
+    .describe .describe-mid .work-list {
+      width: 100%; }
+      .describe .describe-mid .work-list .deslis-eve {
+        padding: 10px 0;
+        padding-left: 56px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #ECECEC;
+        /*company head*/
+        /*company*/
+        /*request*/
+        /*map*/ }
+        .describe .describe-mid .work-list .deslis-eve .head {
+          padding: 16px 0; }
+          .describe .describe-mid .work-list .deslis-eve .head .one {
+            font-size: 15px;
+            color: black;
+            font-weight: bold; }
+          .describe .describe-mid .work-list .deslis-eve .head .two {
+            font-size: 26px;
+            color: #45B45A; }
+        .describe .describe-mid .work-list .deslis-eve .com-head {
+          box-sizing: border-box;
+          margin-left: -20px; }
+        .describe .describe-mid .work-list .deslis-eve p {
+          padding: 2px 0;
+          padding-right: 56px;
+          font-size: 14px;
+          font-weight: normal;
+          color: #888787; }
+        .describe .describe-mid .work-list .deslis-eve .com-img {
+          padding-top: 40px; }
+        .describe .describe-mid .work-list .deslis-eve .www {
+          color: #2298F3;
+          font-size: 15px;
+          text-decoration: underline;
+          text-spacing: 0.2em; }
+        .describe .describe-mid .work-list .deslis-eve .duty {
+          font-size: 16px;
+          color: #4D4C4C;
+          font-weight: normal;
+          padding-bottom: 4px; }
+          .describe .describe-mid .work-list .deslis-eve .duty i {
+            color: #45b45a; }
+          .describe .describe-mid .work-list .deslis-eve .duty span {
+            color: #4D4C4C; }
+        .describe .describe-mid .work-list .deslis-eve .request {
+          padding: 3px 0;
+          font-size: 14px;
+          font-weight: normal;
+          color: #888787; }
+        .describe .describe-mid .work-list .deslis-eve .site-img {
+          width: 1030px;
+          height: 282px;
+          overflow: hidden;
+          box-sizing: border-box;
+          border: 7px solid #EFEFEF;
+          margin-bottom: 16px; }
+      .describe .describe-mid .work-list .deslis-eve-com {
+        padding: 20px 0;
+        padding-left: 56px; }
+
+/*baodeli  app*/
+.baodeli {
+  width: 100%;
+  height: auto;
+  margin-top: 8px; }
+  .baodeli .baodeli-mid {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    border-top: 4px solid #10C3EA;
+    border-radius: 10px;
+    padding: 22px 18px 80px;
+    box-sizing: border-box;
+    background: #fff;
+    /*baodeli  top*/
+    /*five line*/ }
+    .baodeli .baodeli-mid .loges {
+      width: 100%;
+      height: auto;
+      overflow: hidden; }
+      .baodeli .baodeli-mid .loges .sign {
+        width: 89px;
+        height: 89px;
+        border: 1px solid #EFEFEF;
+        float: left; }
+        .baodeli .baodeli-mid .loges .sign img {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto; }
+      .baodeli .baodeli-mid .loges .com-detail {
+        width: auto;
+        height: auto;
+        float: left;
+        padding-left: 18px;
+        box-sizing: border-box; }
+        .baodeli .baodeli-mid .loges .com-detail .name {
+          width: 100%;
+          float: left; }
+          .baodeli .baodeli-mid .loges .com-detail .name .com-name {
+            font-size: 28px;
+            padding-top: 4px;
+            color: #3F3E3E;
+            font-weight: normal; }
+          .baodeli .baodeli-mid .loges .com-detail .name .app {
+            padding: 2px 15px;
+            border-radius: 10px;
+            color: #666;
+            font-size: 12px; }
+          .baodeli .baodeli-mid .loges .com-detail .name .app1 {
+            margin-left: 50px;
+            background: #FFC453; }
+          .baodeli .baodeli-mid .loges .com-detail .name .app2 {
+            margin: 0 6px;
+            background: #FF6A91; }
+          .baodeli .baodeli-mid .loges .com-detail .name .app3 {
+            background: #3CE694; }
+        .baodeli .baodeli-mid .loges .com-detail .allname {
+          width: 100%;
+          float: left;
+          padding: 20px 0; }
+          .baodeli .baodeli-mid .loges .com-detail .allname span {
+            color: #333;
+            font-size: 18px; }
+    .baodeli .baodeli-mid .aboutall {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      overflow: hidden; }
+      .baodeli .baodeli-mid .aboutall .about-lis {
+        display: block;
+        width: 100%;
+        padding: 2px 0;
+        overflow: hidden; }
+        .baodeli .baodeli-mid .aboutall .about-lis .box {
+          float: left;
+          width: 88px;
+          height: 20px;
+          border: 1px solid #efefef;
+          border-radius: 2px; }
+          .baodeli .baodeli-mid .aboutall .about-lis .box img {
+            margin: 0 4px; }
+          .baodeli .baodeli-mid .aboutall .about-lis .box .category {
+            height: 100%;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 2px; }
+        .baodeli .baodeli-mid .aboutall .about-lis .tell {
+          float: left;
+          padding: 0 20px;
+          font-size: 14px;
+          color: #888787; }
+        .baodeli .baodeli-mid .aboutall .about-lis .www {
+          color: #2298F3;
+          font-size: 15px;
+          text-decoration: underline;
+          text-spacing: 0.2em;
+          padding: 0 20px; }
+  .baodeli .shou {
+    position: absolute;
+    bottom: 0;
+    right: -48px; }
+
+/*comment*/
+.comment {
+  width: 100%;
+  height: auto;
+  margin-top: 8px;
+  margin-bottom: 40px; }
+  .comment .comment-mid {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    border-top: 4px solid #10C3EA;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: #fff; }
+    .comment .comment-mid .head {
+      padding: 16px 20px;
+      border-bottom: 1px solid #BFBFBF; }
+      .comment .comment-mid .head .one {
+        font-size: 15px;
+        color: black;
+        font-weight: bold; }
+      .comment .comment-mid .head .two {
+        font-size: 26px;
+        color: #45B45A; }
+    .comment .comment-mid .comment-des {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      padding: 23px 40px 40px 40px; }
+      .comment .comment-mid .comment-des .des-lis {
+        float: left;
+        width: 540px;
+        height: 80px;
+        box-sizing: border-box;
+        border: 1px solid #BFBFBF;
+        background: #FAFAFA;
+        margin-top: 20px; }
+        .comment .comment-mid .comment-des .des-lis .green {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 3px;
+          height: 100%;
+          background: #00B38A; }
+        .comment .comment-mid .comment-des .des-lis .content {
+          padding: 20px 12px;
+          width: auto;
+          height: auto;
+          overflow: hidden; }
+          .comment .comment-mid .comment-des .des-lis .content .con-left {
+            float: left; }
+            .comment .comment-mid .comment-des .des-lis .content .con-left h2 {
+              font-size: 18px;
+              color: #00B38A;
+              font-weight: normal; }
+            .comment .comment-mid .comment-des .des-lis .content .con-left h4 {
+              font-size: 15px;
+              color: #EF5252;
+              font-weight: normal; }
+              .comment .comment-mid .comment-des .des-lis .content .con-left h4 span {
+                padding: 0 20px;
+                color: #888787; }
+          .comment .comment-mid .comment-des .des-lis .content .con-right {
+            float: right;
+            padding: 0 20px; }
+            .comment .comment-mid .comment-des .des-lis .content .con-right .date {
+              color: #888787;
+              font-size: 14px;
+              font-weight: normal; }
+      .comment .comment-mid .comment-des .des-lis1 {
+        margin-left: 20px; }
 
 /*# sourceMappingURL=recruit.css.map */
