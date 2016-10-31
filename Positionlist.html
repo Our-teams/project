@@ -5,29 +5,124 @@
 	<title>职位列表页</title>
 	<link rel="stylesheet" href="css/position.css" />
 	<link rel="stylesheet" href="css/scss/position.scss" />
+	<script src="js/jquery.js"></script>
+	<script src="js/comlist.js"></script>
 </head>
 <body>
-	<!--banner-->
-	<div class="banner">
-		<div class="up"></div>
-		<div class="big-banner">
-			<div class="banner-zhe"></div>
-			<div class="small-banner">
-				<div class="pre">
-					<div class="pp">
-						<span class="zi">PRE-FALL</span>
-						<div class="x"></div>
-						<span class="zi">COLLECTION</span>
-					</div>
-					<div class="xzi"> 
-						<span>扁平化商务数据思维逻辑互联网线扁平化商务数据思维逻辑互联网线</span>
+			<!--顶部-->
+		<div id="top">
+			<div class="header">
+				<div id="header">
+					<ul class="typebox">
+						<div class="logo">
+							<img src="img/header/logo.png"/>
+						</div>
+						<li class="type">
+							<a href="" class="typebutton">
+								<span>Display of works</span>
+								<hr />
+								<p>作品展示</p>
+							</a>
+						</li>
+						<li class="type">
+							<a href="" class="typebutton">
+								<span>Display of works</span>
+								<hr />
+								<p>行业新闻</p>
+							</a>
+						</li>
+						<li class="type">
+							<a href="" class="typebutton">
+								<span>Display of works</span>
+								<hr />
+								<p>视频介绍</p>
+							</a>
+						</li>
+						<li class="type">
+							<a href="" class="typebutton">
+								<span>Display of works</span>
+								<hr />
+								<p>招聘信息</p>
+							</a>
+						</li>
+						<div class="search">
+							<div class="yuan"></div>
+							<input type="text" />
+							<img src="img/header/search.png" alt="" />
+						</div>
+					</ul>
+				</div>
+				<ul id="banner">
+					<li class="first">
+						<a href="javascript:;">
+							<img src="img/base/banner2.png" alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="img/base/banner2.png" alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="img/base/banner2.png" alt="" />
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+							<img src="img/base/banner2.png" alt="" />
+						</a>
+					</li>
+				</ul>
+				<!--banner 左边大矩形-->
+				<div class="big-box"></div>
+				<!--banner 左边小矩形-->
+				<div class="small-box"></div>
+				<!--banner 右边矩形-->
+				<div class="box-right"></div>
+				<!--banner导航-->
+				<div class="point">
+					<div class="point-box">
+						<!--导航小点儿-->
+						<ul class="uls">
+							<li class="lis active">
+								<div></div>
+							</li>
+							<li class="lis">
+								<div></div>
+							</li>
+							<li class="lis">
+								<div></div>
+							</li>
+							<li class="lis">
+								<div></div>
+							</li>
+						</ul>
+						<!--banner左右按钮-->
+						<div class="button">
+							<a href="javascript:;" class="left"><</a>
+							<a href="javascript:;" class="right">></a>
+						</div>
+						<!--文字-->
+						<div class="text">
+							<span>
+								<h1>01</h1><h5>/4</h5>
+								<br>
+								<h5>PAGE</h5>
+								
+							</span>
+						</div>
 					</div>
 				</div>
-			    
+				<div class="pipei">
+					<div class="pipei-box">
+					</div>		
+				</div>	
+				<div class="pre">
+				</div>
 			</div>
-			
 		</div>
-	</div>
+		
 	
 	
 	<!--sousuo-->
@@ -177,14 +272,83 @@
 			</li>
 			<li class="ye">
 				<ul class="ye-m">
-					<li class="sy"></li>
+					<a href="">首页</a>
+					<a href="">上一页</a>
+					<a class="ym" href="">1</a>
+					<a class="ym" href="">2</a>
+					<a class="ym" href="">3</a>
+					<a class="ym" href="">...</a>
+					<a class="ym" href="">8</a>
+					<a href="">下一页</a>
+					<a href="">尾页</a>
+					<a href="">跳转到第</a>
+					<a class="ku"href=""></a>
+					<a  class="ye"href="">页</a>
 				</ul>
 			</li>
 		</ul>
 	</div>
 	
 	<!--qiye-->
-	<div class="">
-		
+	<div class="qiye">
+		<ul class="q-left">
+			<li class="tuijian">
+				<ul class="ju"></ul>
+				<ul class="yuan"></ul>
+				<span>推荐</span>
+			</li>
+			<li class="qi">企业</li>
+			<li class="dis">Display of company</li>
+		</ul>
+		<ul class="q-right">
+			<li class="yuan"></li>
+			<li class="yuan"></li>
+			<li class="yuan"></li>
+			<li class="ju"></li>
+		</ul>
 	</div>
+	
+	<!--img-->
+	<ul class="pic">
+		<li class="img">
+			<img src="img/base/79.png" alt="" />
+		</li>
+		<li class="img">
+			<img src="img/base/79.png" alt="" />
+		</li>
+		<li class="img">
+			<img src="img/base/79.png" alt="" />
+		</li>
+		<li class="img last">
+			<img src="img/base/79.png" alt="" />
+		</li>
+	</ul>
+	
+	<!--footer-->
+	<div id="footer">
+			<div class="ftbox">
+				<img src="img/header/logo.png" alt="" class="ftlogo"/>
+				<div class="gedang"></div>
+				<div class="ftcenter">
+					<ul class="about">
+						<li><a href="">商务合作</a></li>
+						<li><a href="">意见反馈</a></li>
+						<li><a href="">关于我们</a></li>
+						<li><a href="">联系我们</a></li>
+						<li><a href="">版权声明</a></li>
+						<li><a href="">隐私保护</a></li>	
+					</ul>
+					<div class="xuxian"></div>
+					<div class="ICP">
+						<span>ICP备14007358号-1 / 京公网安备11010802014104号 / Powered by © 2008-2016 UI.CN</span>
+					</div>
+					<div class="icon">
+						<img src="img/header/wx.png" alt="" />
+						<img src="img/header/qq7.png" alt="" />
+						<img src="img/header/wb.png" alt="" />
+					</div>
+				</div>
+				<div class="QRcode"></div>
+			</div>
+		</div>
 </body>
