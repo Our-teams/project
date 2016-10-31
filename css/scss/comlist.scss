@@ -15,10 +15,12 @@
         position: relative;
         
         #header{
-            background-color: #14587f;
+            background: rgba(9,69,98,0.5);
             height: 145px;
             width: 100%;
-            opacity: 1;
+            position: absolute;
+            left: 0;
+            top: 0;
             .typebox{
                 width: #{$inner-width};
                 height:100%;
