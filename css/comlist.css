@@ -169,13 +169,17 @@ img {
   padding-top: 180px;
   padding-left: 240px;
   display: block;
+  position: relative;
 }
 
 #top .header #banner li {
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  top: 180px;
+  left: 240px;
+  width: 1440px;
+  height: 744px;
   float: left;
-  display: none;
+  opacity: 0;
 }
 
 #top .header #banner li a {
@@ -190,7 +194,7 @@ img {
 }
 
 #top .header #banner .first {
-  display: block;
+  opacity: 1;
 }
 
 #top .header .big-box {
