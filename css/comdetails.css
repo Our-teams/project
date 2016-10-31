@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url("header.css");
+@import url("footer.css");
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +29,7 @@ body {
   background: #f4f4f4;
 }
 
-.header {
+.dingbu {
   width: 550px;
   height: 229px;
   margin-left: 280px;
@@ -46,17 +48,17 @@ body {
   height: 140px;
 }
 
-.header .xin {
+.dingbu .xin {
   margin-top: -40px;
 }
 
-.header h1 {
+.dingbu h1 {
   color: black;
   margin-left: 100px;
   margin-top: -80px;
 }
 
-.header h3 {
+.dingbu h3 {
   color: black;
   margin-left: 100px;
 }
