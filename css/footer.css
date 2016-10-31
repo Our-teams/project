@@ -1,0 +1,140 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  position: relative;
+  font-family: "microsoft yahei";
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+/*垂直居中vertical*/
+/*水平居中level*/
+/*全居中center*/
+/*内宽$inner-width*/
+/*文章颜色$articleColor*/
+/*标题的颜色$titleColor*/
+/*图片路径$imgpath:"../img";*/
+#footer {
+  width: 100%;
+  height: 304px;
+  background-color: #2d2d2d;
+}
+
+#footer .ftbox {
+  width: 1200px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#footer .ftbox .ftlogo {
+  display: block;
+  float: left;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 75px;
+}
+
+#footer .ftbox .gedang {
+  float: left;
+  width: 1px;
+  height: 136px;
+  margin-top: 70px;
+  border-right: 1px solid #999;
+}
+
+#footer .ftbox .gedang:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #999;
+  position: absolute;
+  bottom: 0;
+  left: -2px;
+}
+
+#footer .ftbox .gedang:before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #999;
+  position: absolute;
+  top: 0;
+  left: -2px;
+}
+
+#footer .ftbox .ftcenter {
+  float: left;
+  max-width: 670px;
+  height: auto;
+  margin-left: 45px;
+}
+
+#footer .ftbox .ftcenter .about {
+  margin-top: 70px;
+}
+
+#footer .ftbox .ftcenter .about li {
+  float: left;
+  margin-right: 45px;
+}
+
+#footer .ftbox .ftcenter .about li a {
+  color: #a7a5a5;
+  font-size: 16px;
+}
+
+#footer .ftbox .ftcenter .xuxian {
+  width: 250px;
+  height: 2px;
+  border-bottom: 2px dotted #999;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  float: left;
+  margin: 12px 0;
+}
+
+#footer .ftbox .ftcenter .ICP {
+  float: left;
+  line-height: 1;
+}
+
+#footer .ftbox .ftcenter .ICP span {
+  font-size: 14px;
+  color: #999;
+}
+
+#footer .ftbox .ftcenter .icon {
+  float: left;
+}
+
+#footer .ftbox .ftcenter .icon img {
+  display: block;
+  float: left;
+  margin: 25px 25px 0 0;
+}
+
+#footer .ftbox .QRcode {
+  position: absolute;
+  right: 0;
+  top: 70px;
+  width: 140px;
+  height: 140px;
+  background: #25b0ff;
+}
