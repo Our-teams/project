@@ -5,7 +5,7 @@
     overflow: hidden;
     padding-top: 145px;
 //  margin-bottom: 350px;
-//  height: 2985px;
+    height: 2985px;
 //  background: red;
     .title{
             width: 100%;
@@ -472,18 +472,110 @@
 }
 .weibu{
         width: 100%;
-        background: #155c86;
-        height: 1300px;
-        margin-top: 3335px;
+//      background: #155c86;
+        height: 1500px;
+        margin-top: 3010px;
+        
         .position{
+            background: #fff;
             width: $inner-width;
             @include level;
             position: relative;
-            height: 900px;
+            overflow: hidden;
+            margin-bottom: 100px;
             img{
                 position: absolute;
                 top: -340px;
                 left: 0;
+            }
+            .ttt{
+                font-size: 18px;
+                color: #333;
+                line-height: 28px;
+                border-bottom: 1px solid #ddd;
+            }
+            .pinglun{
+                height: 203px;
+                border-bottom: 1px solid #ddd;
+//              background: red;
+                .left-pl{
+                   float: left;
+                   height: 203px; 
+                   width: 123px; 
+                   box-sizing: border-box;
+                   padding-top: 56px;
+                   img{
+                       position: absolute;
+                       left: 25px;
+                       top: 56px;
+                   }        
+                }
+                .huifu{
+                    position: absolute;
+                        right: 10px;
+                        bottom: 10px;
+                    span{
+                        color: #42d1ef;
+                        margin-left: 20px;
+                        
+                    }
+                }
+                .right-pl{
+                    float: left;
+                    padding-top: 56px;
+                    margin-left: 25px;
+                    span{
+                        font-size: 18px;
+                        color: #333;
+                    }
+                    .span{
+                        font-size: 14px;
+                        color: #999;
+                    }
+                    p{
+                        font-size: 14px;
+                        color: #666;
+                        margin-top: 15px;
+                    }
+                    .yin{
+                        margin-top: 15px;
+                        color: #ccc;
+                    }
+                    .yin-box{
+                        width: 485px;
+                        height: 92px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                        margin-top: 8px;
+                        box-sizing: border-box;
+                        padding:{
+                            left: 10px;
+                            top: 10px;
+                        };
+                        .tt-yin{
+                            font-size: 16px;
+                            color: #333;
+                        }
+                        span{
+                            color: #999;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                
+            }
+            .pinglun2{
+                height: 320px;
+            }
+            .pinglun3{
+                height: 420px;
+                border: 0;
+                #yin{
+                    border: 0;
+                }
+                #yin2{
+                    border: 0;
+                }
             }
         }
         .h-anniu{
@@ -498,6 +590,15 @@
             font-size: 24px;
             letter-spacing: 5px;
         }
+    }
+    .blue{
+        background: #155c86;
+        width: 100%;
+        height: 1100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
     }
     .black{
         width: 100%;
@@ -544,10 +645,21 @@
                     .button{
                         text-align: center;
                         margin-top: 26px;
+                        position: relative;
+                        
                         
                     }
                     .close{
                             left: 0;
+                        }
+                    .hei{
+                            width: 100%;
+                            height: 40px;
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            opacity: 0.5;
+                            background: #000;
                         }
                 }
                 .last{
