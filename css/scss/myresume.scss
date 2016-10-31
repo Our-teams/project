@@ -507,6 +507,7 @@
         top:0;
         background: #000;
         opacity: 0.7;
+        display: none;
         
     }
     .all{
@@ -516,6 +517,7 @@
         left:0;
         top:550px;
         @include level;
+        display: none;
 //      margin: 0 auto;
 //      background: green;
         .jianli{
@@ -566,7 +568,7 @@
             position: relative;
             position: absolute;
             right: 50px;
-            bottom: 880px;
+            bottom: 878px;
             z-index: 0;
             .span-btn{
                 position: absolute;
@@ -599,6 +601,42 @@
                 display: block;
             }
         }
+       .green{
+           width: 444px;
+           height: 78px;
+            position: absolute;
+            left: 153px;
+            bottom: 882px;
+            background: #1dd473;
+            z-index: 100000;
+            opacity: 0.3;
+       }
+       .bai-anniu{
+           width: 444px;
+           height: 78px;
+            position: absolute;
+            left: 153px;
+            bottom: 882px;
+            z-index: 100000;
+            padding-top: 30px;
+            padding-left: 180px;
+            box-sizing: border-box;
+//          background: #fff;
+            span{
+                float: left;
+                width: 18px;
+                height: 18px;
+                margin-left: 12px;
+                background: #fff;
+                border-radius: 50%;
+            }
+            .first-class{
+                background: #f0c310;
+                border: 2px solid #fff;
+                box-sizing: border-box;
+            }
+       }
+        
         .close{
             position: absolute;
             right: 0;
@@ -615,7 +653,13 @@
             left: 365px;
         }
         .bg{
-            bottom:930px;
+            bottom:938px;
+        }
+        .green{
+            bottom: 942px;
+        }
+        .bai-anniu{
+            bottom: 942px;
         }
     }
 

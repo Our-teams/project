@@ -49,14 +49,13 @@ tr {
     width: 320px;
     height: 66px; }
   tr .xiugai {
-    background: url(../img/base/button.png);
+    background: url(../img/base/but.png);
     font-size: 8px;
     color: #fff;
     border: 0;
-    line-height: 28px;
-    border-radius: 30%;
-    width: 97px;
-    height: 28px; }
+    line-height: 40px;
+    width: 145px;
+    height: 41px; }
 
 select {
   height: 30px; }
