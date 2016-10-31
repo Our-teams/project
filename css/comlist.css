@@ -177,7 +177,7 @@ img {
   top: 180px;
   left: 240px;
   width: 1440px;
-  height: 744px;
+  height: 650px;
   float: left;
   opacity: 0;
 }
@@ -1088,4 +1088,97 @@ img {
   width: 140px;
   height: 140px;
   background: #25b0ff;
+}
+
+#ce-anv {
+  width: 66px;
+  height: 834px;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+#ce-anv .touxiang {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 70px;
+}
+
+#ce-anv .xingxing {
+  width: 66px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#ce-anv .xingxing img {
+  margin-left: -13px;
+}
+
+#ce-anv .xingxing img:nth-of-type(1) {
+  margin-left: 0;
+}
+
+#ce-anv .xingxing hr {
+  width: 60px;
+  color: #3c4851;
+  height: 1px;
+  border-bottom: 0;
+  border-top: 0;
+  border-left: 55px solid #3c4851;
+  border-right: 5px solid #fff;
+}
+
+#ce-anv .tubiao {
+  width: 43px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 75px;
+}
+
+#ce-anv .tubiao li {
+  width: 100%;
+  height: 43px;
+  margin-bottom: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+#ce-anv .tubiao li:nth-of-type(1) {
+  margin-bottom: 20px;
+}
+
+#ce-anv .tubiao li:nth-of-type(2) {
+  margin-bottom: 40px;
+}
+
+#ce-anv .tubiao .zy {
+  position: absolute;
+  left: -250%;
+  top: -5px;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+#ce-anv .tubiao li:nth-of-type(5) {
+  margin-bottom: 100px;
+}
+
+#ce-anv .tubiao li:nth-of-type(7) {
+  width: 36px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#ce-anv .tubiao li:hover .zy {
+  opacity: 1;
 }
