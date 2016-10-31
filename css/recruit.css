@@ -208,7 +208,6 @@ body {
   overflow: hidden; }
   .describe .describe-mid {
     width: 1200px;
-    height: auto;
     margin: 0 auto;
     background: #fff;
     border-radius: 10px; }
@@ -222,7 +221,8 @@ body {
       bottom: 100px; }
     .describe .describe-mid .work-list {
       width: 100%;
-      background: #fff; }
+      background: #fff;
+      border-radius: 10px; }
       .describe .describe-mid .work-list .deslis-eve {
         padding: 10px 0;
         padding-left: 56px;
